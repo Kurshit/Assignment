@@ -31,7 +31,7 @@ Step 1: Extract the zip file - SapeFeeCalcKurshit.zip
 Step 2: Open Folder SapeFeeCalcKurshit
 Step 3: Open command prompt and run following command on console 
 
-	java -jar build\libs\<>.jar
+	java -jar build\libs\SapeFeeCalcKurshit-0.0.1-SNAPSHOT.jar
 
 
 The app gets up on default localhost:8080 port.
@@ -47,7 +47,7 @@ Step 2: Open Folder SapeFeeCalcKurshit
 Step 3: Keep the custom input file at this directory. E.g. sampleData.txt 
 Step 4:  Run following command
 
-	java -jar build\libs\<>.jar --filetype=txt
+	java -jar build\libs\SapeFeeCalcKurshit-0.0.1-SNAPSHOT.jar --filetype=txt
 
 
 The app gets up on default localhost:8080 port.
