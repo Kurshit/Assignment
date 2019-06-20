@@ -9,5 +9,4 @@ public class SapeFeeCalcKurshitApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SapeFeeCalcKurshitApplication.class, args);
 	}
-
 }

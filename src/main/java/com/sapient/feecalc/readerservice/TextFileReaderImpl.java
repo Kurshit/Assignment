@@ -43,10 +43,6 @@ public class TextFileReaderImpl extends AbstractReaderType {
 		}
 
 		return inputTransactionList;
-
-
 	}
-
-
 
 }

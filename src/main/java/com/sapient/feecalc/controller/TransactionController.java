@@ -1,10 +1,6 @@
 package com.sapient.feecalc.controller;
 
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.stream.Stream;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,7 +14,7 @@ public class TransactionController {
 	@Autowired
 	AbstractReaderType service;
 	
-	@RequestMapping("/generaterepor/{filename}")
+	@RequestMapping("/generatereport/{filename}")
 	public void displayReport(@PathVariable("filename") String fileName) throws IOException {
 	
 		service.readTransactionFile(fileName);
