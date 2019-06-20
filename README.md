@@ -47,12 +47,12 @@ Step 2: Open Folder SapeFeeCalcKurshit
 Step 3: Keep the custom input file at this directory. E.g. sampleData.txt 
 Step 4:  Run following command
 
-	java -jar build\libs\SapeFeeCalcKurshit-0.0.1-SNAPSHOT.jar --filetype=excel
+	java -jar build\libs\SapeFeeCalcKurshit-0.0.1-SNAPSHOT.jar --filetype=txt
 
 
 The app gets up on default localhost:8080 port.
 
-Step 4: Open the browser and hit this API end point : http://localhost:8080/generatereport/sampleDataExcel.xlsx
+Step 4: Open the browser and hit this API end point : http://localhost:8080/generatereport/sampleData.txt
 
 User should see output on console as per below :
 
